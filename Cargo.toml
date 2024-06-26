@@ -1,0 +1,9 @@
+[package]
+name = "rust-sokoban-excali"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ggez = "0.7"
+specs = { version = "0.17.0", features = ["specs-derive"] }
+glam = { version = "0.20.0", features = ["mint"] }

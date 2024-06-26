@@ -15,6 +15,7 @@ impl<'a> System<'a> for GameplayStateSystem {
         ReadStorage<'a, Position>,
         ReadStorage<'a, Box>,
         ReadStorage<'a, BoxSpot>,
+        
     );
 
     fn run(&mut self, data: Self::SystemData) {
